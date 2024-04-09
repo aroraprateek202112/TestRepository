@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.wrapContentSize(),
                     color = MaterialTheme.colorScheme.inversePrimary
                 ) {
-                    Greeting("Hi Prateek")
+                    Greeting(name = "Hi Prateek", modifier = Modifier.fillMaxSize())
                 }
             }
         }
