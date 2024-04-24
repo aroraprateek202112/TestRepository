@@ -9,6 +9,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.testrepository.ui.theme.TestRepositoryTheme
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.wrapContentSize(),
                     color = MaterialTheme.colorScheme.inversePrimary
                 ) {
-                    Greeting(name = "Hi this is my first compose UI app", modifier = Modifier.fillMaxSize())
+                    Greeting(name = "Hi this is my first compose UI app", modifier = Modifier.wrapContentSize(align = Alignment.Center))
                 }
             }
         }
