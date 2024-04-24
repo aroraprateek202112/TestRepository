@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.wrapContentSize(),
                     color = MaterialTheme.colorScheme.inversePrimary
                 ) {
-                    Greeting(name = "Hi Prateek", modifier = Modifier.fillMaxSize())
+                    Greeting(name = "Hi this is my first compose UI app", modifier = Modifier.fillMaxSize())
                 }
             }
         }
